@@ -1,0 +1,26 @@
+# ── Dependencies ──────────────────────────────────────
+# Hundreds of MB of downloaded libraries — recreated with npm install
+node_modules/
+
+# ── Environment variables ──────────────────────────────
+# CRITICAL: never upload these — contain secret keys and passwords
+.env
+.env.local
+.env.production
+
+# ── Build output ───────────────────────────────────────
+# Generated files — rebuilt on every deploy, no need to track
+dist/
+build/
+
+# ── OS junk ────────────────────────────────────────────
+# Mac folder metadata — useless to everyone else
+.DS_Store
+
+# ── Editor files ───────────────────────────────────────
+# VS Code settings (optional — remove this if you want to share settings)
+.vscode/
+
+# ── Logs ───────────────────────────────────────────────
+*.log
+npm-debug.log*
